@@ -8,3 +8,6 @@ def remove_user():
         print("Supprimer l’utilisateur : '" + username + "'? (Y/N)")
         confirm = input().upper()
     os.system("sudo userdel -r " + username) 
+
+
+remove_user()
